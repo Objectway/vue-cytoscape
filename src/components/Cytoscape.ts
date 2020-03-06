@@ -25,7 +25,7 @@ export default class VueCytoscape extends Vue {
     const el = document.createElement('div')
     el.setAttribute('id', 'cytoscape-div')
     el.setAttribute('width', '100%')
-    el.setAttribute('style', 'min-height: 600px;')
+    el.setAttribute('style', 'width: 100%; height: 100%; position: absolute; left: 0; top: 0; z-index: 999;')
     // add it as a child of the vue managed one
     this.$el.appendChild(el)
     // apply lifecycle hooks

@@ -1,6 +1,6 @@
 {
-  "name": "vue-cytoscape",
-  "version": "1.0.8",
+  "name": "@owui/vue-cytoscape",
+  "version": "1.0.9-owui",
   "private": false,
   "repository": {
     "type": "git",
@@ -46,7 +46,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "ts-jest": "^23.0.0",
-    "typescript": "^3.4.3",
+    "typescript": "~3.4.5",
     "vue-template-compiler": "^2.6.10",
     "vuepress": "^1.1.0"
   }
